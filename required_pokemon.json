@@ -1,0 +1,680 @@
+{
+    "5": {
+        "name": "Charmeleon",
+        "attack": 64,
+        "defense": 58,
+        "evolveLevel": 36,
+        "evolveTo": "6",
+        "type": "fire",
+        "moves": [
+            "scratch",
+            "ember",
+            "metal claw",
+            "flamethrower"
+        ],
+        "curve": 1.3
+    },
+    "6": {
+        "name": "Charizard",
+        "attack": 84,
+        "defense": 78,
+        "type": "fire",
+        "moves": [
+            "flamethrower",
+            "wing attack",
+            "slash",
+            "metal claw"
+        ],
+        "curve": 1.3
+    },
+    "9": {
+        "name": "Blastoise",
+        "attack": 83,
+        "defense": 100,
+        "type": "water",
+        "moves": [
+            "hydro pump",
+            "bubble",
+            "water gun",
+            "bite"
+        ],
+        "curve": 1.3
+    },
+    "25": {
+        "name": "Pikachu",
+        "attack": 90,
+        "defense": 55,
+        "type": "electric",
+        "moves": [
+            "thundershock",
+            "thunderbolt"
+        ],
+        "curve": 1.6
+    },
+    "26": {
+        "name": "Raichu",
+        "attack": 90,
+        "defense": 55,
+        "type": "electric",
+        "moves": [
+            "thundershock",
+            "thunderbolt"
+        ],
+        "curve": 1.6
+    },
+    "28": {
+        "name": "Sandslash",
+        "attack": 100,
+        "defense": 110,
+        "type": "ground",
+        "moves": [
+            "scratch",
+            "poison sting",
+            "slash",
+            "swift"
+        ],
+        "curve": 1.6
+    },
+    "31": {
+        "name": "Nidoqueen",
+        "attack": 82,
+        "defense": 87,
+        "type": "poison",
+        "moves": [
+            "scratch",
+            "poison sting",
+            "body slam",
+            "superpower"
+        ],
+        "curve": 1.3
+    },
+    "34": {
+        "name": "Nidoking",
+        "attack": 92,
+        "defense": 77,
+        "type": "poison",
+        "moves": [
+            "peck",
+            "poison sting",
+            "megahorn"
+        ],
+        "curve": 1.3
+    },
+    "38": {
+        "name": "Ninetales",
+        "attack": 76,
+        "defense": 75,
+        "type": "fire",
+        "moves": [
+            "ember"
+        ],
+        "curve": 1.6
+    },
+    "45": {
+        "name": "Vileplume"
+    },
+    "51": {
+        "name": "Dugtrio",
+        "attack": 80,
+        "defense": 50,
+        "type": "ground",
+        "moves": [
+            "scratch",
+            "slash",
+            "earthquake"
+        ],
+        "curve": 1.6
+    },
+    "57": {
+        "name": "Primeape",
+        "attack": 105,
+        "defense": 60,
+        "type": "fighting",
+        "moves": [
+            "scratch",
+            "low kick",
+            "karate chop",
+            "cross chop"
+        ],
+        "curve": 1.6
+    },
+    "59": {
+        "name": "Arcanine",
+        "attack": 110,
+        "defense": 80,
+        "type": "fire",
+        "moves": [
+            "bite",
+            "ember"
+        ],
+        "curve": 1
+    },
+    "62": {
+        "name": "Poliwrath",
+        "attack": 85,
+        "defense": 95,
+        "type": "water",
+        "moves": [
+            "water gun"
+        ],
+        "curve": 1.3
+    },
+    "64": {
+        "name": "Kadabra"
+    },
+    "65": {
+        "name": "Alakazam",
+        "attack": 50,
+        "defense": 45,
+        "type": "psychic",
+        "moves": [
+            "confusion",
+            "psybeam",
+            "psychic"
+        ],
+        "curve": 1.3
+    },
+    "67": {
+        "name": "Machoke",
+        "attack": 80,
+        "defense": 50,
+        "evolveLevel": 28,
+        "evolveTo": "67",
+        "type": "fighting",
+        "moves": [
+            "low kick",
+            "karate chop"
+        ],
+        "curve": 1.3,
+        "levels": [
+            5,
+            19
+        ],
+        "probability": 12
+    },
+    "68": {
+        "name": "Machamp",
+        "attack": 130,
+        "defense": 80,
+        "type": "fighting",
+        "moves": [
+            "low kick",
+            "karate chop",
+            "cross chop",
+            "dynamicpunch"
+        ],
+        "curve": 1.3
+    },
+    "75": {
+        "name": "Graveler",
+        "attack": 80,
+        "defense": 100,
+        "evolveLevel": 25,
+        "evolveTo": "75",
+        "type": "rock",
+        "moves": [
+            "tackle",
+            "rock throw"
+        ],
+        "curve": 1.3,
+        "levels": [
+            5,
+            20
+        ],
+        "probability": 15
+    },
+    "76": {
+        "name": "Golem",
+        "attack": 110,
+        "defense": 130,
+        "type": "rock",
+        "moves": [
+            "tackle",
+            "rock throw",
+            "earthquake"
+        ],
+        "curve": 1.3
+    },
+    "82": {
+        "name": "Magneton",
+        "attack": 60,
+        "defense": 95,
+        "type": "electric",
+        "moves": [
+            "tackle",
+            "thundershock",
+            "spark",
+            "zap cannon"
+        ],
+        "curve": 1.6
+    },
+    "83": {
+        "name": "Farfetch'd",
+        "attack": 65,
+        "defense": 55,
+        "type": "normal",
+        "moves": [
+            "peck",
+            "slash"
+        ],
+        "curve": 1.6,
+        "levels": [
+            25,
+            40
+        ],
+        "probability": 8
+    },
+    "87": {
+        "name": "Dewgong",
+        "attack": 70,
+        "defense": 80,
+        "type": "water",
+        "moves": [
+            "ice beam",
+            "headbutt",
+            "icy wind",
+            "aurora beam"
+        ],
+        "curve": 1.6
+    },
+    "89": {
+        "name": "Muk",
+        "attack": 105,
+        "defense": 75,
+        "type": "poison",
+        "moves": [
+            "pound",
+            "sludge",
+            "sludge bomb"
+        ],
+        "curve": 1.6
+    },
+    "91": {
+        "name": "Cloyster",
+        "attack": 95,
+        "defense": 180,
+        "type": "water",
+        "moves": [
+            "aurora beam"
+        ],
+        "curve": 1
+    },
+    "93": {
+        "name": "Haunter",
+        "attack": 35,
+        "defense": 30,
+        "evolveLevel": 25,
+        "evolveTo": "93",
+        "type": "ghost",
+        "moves": [
+            "tackle",
+            "lick"
+        ],
+        "curve": 1.3,
+        "levels": [
+            5,
+            15
+        ],
+        "probability": 10
+    },
+    "94": {
+        "name": "Gengar",
+        "attack": 65,
+        "defense": 60,
+        "type": "ghost",
+        "moves": [
+            "tackle",
+            "lick",
+            "shadow punch",
+            "shadow ball"
+        ],
+        "curve": 1.3
+    },
+    "97": {
+        "name": "Hypno",
+        "attack": 73,
+        "defense": 70,
+        "type": "psychic",
+        "moves": [
+            "pound",
+            "confusion",
+            "headbutt",
+            "psychic"
+        ],
+        "curve": 1.6
+    },
+    "101": {
+        "name": "Electrode",
+        "attack": 50,
+        "defense": 70,
+        "type": "electric",
+        "moves": [
+            "tackle",
+            "spark",
+            "swift"
+        ],
+        "curve": 1.6
+    },
+    "103": {
+        "name": "Exeggutor",
+        "attack": 95,
+        "defense": 85,
+        "type": "grass",
+        "moves": [
+            "confusion",
+            "stomp",
+            "egg bomb"
+        ],
+        "curve": 1
+    },
+    "105": {
+        "name": "Marowak",
+        "attack": 80,
+        "defense": 110,
+        "type": "ground",
+        "moves": [
+            "bone club",
+            "headbutt"
+        ],
+        "curve": 1.6
+    },
+    "106": {
+        "name": "Hitmonlee",
+        "attack": 120,
+        "defense": 53,
+        "evolveLevel": 20,
+        "evolveTo": "107",
+        "type": "fighting",
+        "moves": [
+            "rolling kick"
+        ],
+        "curve": 1.6,
+        "levels": [
+            5,
+            15
+        ],
+        "probability": 4
+    },
+    "107": {
+        "name": "Hitmonchan",
+        "attack": 105,
+        "defense": 79,
+        "type": "fighting",
+        "moves": [
+            "mega punch",
+            "ice punch",
+            "fire punch",
+            "sky uppercut"
+        ],
+        "curve": 1.6
+    },
+    "110": {
+        "name": "Weezing",
+        "attack": 90,
+        "defense": 120,
+        "type": "poison",
+        "moves": [
+            "tackle",
+            "smog",
+            "sludge"
+        ],
+        "curve": 1.6
+    },
+    "112": {
+        "name": "Rhydon",
+        "attack": 130,
+        "defense": 120,
+        "type": "ground",
+        "moves": [
+            "horn attack",
+            "stomp",
+            "earthquake",
+            "megahorn"
+        ],
+        "curve": 1
+    },
+    "113": {
+        "name": "Chansey",
+        "attack": 5,
+        "defense": 5,
+        "type": "normal",
+        "moves": [
+            "pound",
+            "egg bomb"
+        ],
+        "curve": 1.9,
+        "levels": [
+            25,
+            55
+        ],
+        "probability": 4
+    },
+    "115": {
+        "name": "Kangaskhan",
+        "attack": 95,
+        "defense": 80,
+        "type": "normal",
+        "moves": [
+            "bite",
+            "mega punch",
+            "dizzy punch"
+        ],
+        "curve": 1.6,
+        "levels": [
+            5,
+            45
+        ],
+        "probability": 4
+    },
+    "117": {
+        "name": "Seadra",
+        "attack": 65,
+        "defense": 95,
+        "type": "water",
+        "moves": [
+            "bubble",
+            "water gun",
+            "twister",
+            "hydro pump"
+        ],
+        "curve": 1.6
+    },
+    "121": {
+        "name": "Starmie",
+        "attack": 75,
+        "defense": 85,
+        "type": "water",
+        "moves": [
+            "water gun",
+            "swift"
+        ],
+        "curve": 1
+    },
+    "122": {
+        "name": "Mr. mime",
+        "attack": 45,
+        "defense": 65,
+        "type": "psychic",
+        "moves": [
+            "confusion",
+            "magical leaf",
+            "psybeam",
+            "psychic"
+        ],
+        "curve": 1.6,
+        "levels": [
+            5,
+            15
+        ],
+        "probability": 4
+    },
+    "128": {
+        "name": "Tauros",
+        "attack": 100,
+        "defense": 95,
+        "type": "normal",
+        "moves": [
+            "tackle",
+            "horn attack"
+        ],
+        "curve": 1,
+        "levels": [
+            5,
+            15
+        ],
+        "probability": 4
+    },
+    "131": {
+        "name": "Lapras",
+        "attack": 85,
+        "defense": 80,
+        "type": "water",
+        "moves": [
+            "water gun",
+            "body slam",
+            "ice beam",
+            "hydro pump"
+        ],
+        "curve": 1,
+        "levels": [
+            5,
+            15
+        ],
+        "probability": 4
+    },
+    "132": {
+        "name": "Ditto"
+    },
+    "137": {
+        "name": "Porygon",
+        "attack": 60,
+        "defense": 70,
+        "type": "normal",
+        "moves": [
+            "tackle",
+            "psybeam",
+            "zap cannon"
+        ],
+        "curve": 1.6,
+        "levels": [
+            5,
+            45
+        ],
+        "probability": 4
+    },
+    "139": {
+        "name": "Omastar",
+        "attack": 60,
+        "defense": 125,
+        "type": "rock",
+        "moves": [
+            "ancientpower",
+            "hydro pump",
+            "water gun",
+            "mud shot"
+        ],
+        "curve": 1.6
+    },
+    "141": {
+        "name": "Kabutops",
+        "attack": 115,
+        "defense": 105,
+        "type": "rock",
+        "moves": [
+            "scratch",
+            "mud shot",
+            "slash",
+            "ancientpower"
+        ],
+        "curve": 1.6
+    },
+    "144": {
+        "name": "Articuno",
+        "attack": 85,
+        "defense": 100,
+        "type": "ice",
+        "moves": [
+            "gust",
+            "powder snow",
+            "ice beam",
+            "blizzard"
+        ],
+        "curve": 1,
+        "levels": [
+            50,
+            50
+        ],
+        "probability": 1
+    },
+    "145": {
+        "name": "Zapdos",
+        "attack": 90,
+        "defense": 85,
+        "type": "electric",
+        "moves": [
+            "peck",
+            "thundershock",
+            "drill peck",
+            "thunder"
+        ],
+        "curve": 1,
+        "levels": [
+            50,
+            50
+        ],
+        "probability": 1
+    },
+    "146": {
+        "name": "Moltres",
+        "attack": 100,
+        "defense": 90,
+        "type": "fire",
+        "moves": [
+            "wing attack",
+            "ember",
+            "flamethrower",
+            "heat wave"
+        ],
+        "curve": 1,
+        "levels": [
+            50,
+            50
+        ],
+        "probability": 1
+    },
+    "150": {
+        "name": "Mewtwo",
+        "attack": 110,
+        "defense": 90,
+        "type": "psychic",
+        "moves": [
+            "confusion",
+            "swift",
+            "psychic"
+        ],
+        "curve": 1,
+        "levels": [
+            70,
+            70
+        ],
+        "probability": 1
+    },
+    "151": {
+        "name": "Mew",
+        "attack": 100,
+        "defense": 100,
+        "type": "psychic",
+        "moves": [
+            "pound",
+            "mega punch",
+            "psychic",
+            "ancientpower"
+        ],
+        "curve": 1.3,
+        "levels": [
+            50,
+            50
+        ],
+        "probability": 0.3
+    }
+}
