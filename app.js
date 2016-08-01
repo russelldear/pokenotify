@@ -20,12 +20,13 @@ app.post('/', function(req, res) {
     if (pokemon[req.body.message.pokemon_id]){
 
         var pokemonName = pokemon[req.body.message.pokemon_id].name;
+        var disappearTime = new Date(req.body.message.disappear_time * 1000);
 
         console.log(pokemonName);
 
         request.post(
             'https://maker.ifttt.com/trigger/PokemonGoWebhook/with/key/p8wzbrpgsYRe0TBOu2V3e',
-            { json: { "value1" : pokemonName, "value2" : "", "value3" : "" } },
+            { json: { "value1" : pokemonName, "value2" : disappearTime.toLocaleString(), "value3" : "" } },
             function (error, response, body) {
                 if (error && response.statusCode != 200) {
                     console.log(body)
