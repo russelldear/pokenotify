@@ -22,11 +22,17 @@ app.post('/', function(req, res) {
         var pokemonName = pokemon[req.body.message.pokemon_id].name;
         var disappearTime = new Date(req.body.message.disappear_time * 1000);
 
-        console.log(pokemonName);
+	    disappearTime.setHours(disappearTime.getHours()+12);
+
+        var offset = new Date().getTimezoneOffset();
+        
+        disappearTime.setMinutes(disappearTime.getMinutes() - offset);
+
+        console.log(pokemonName + " : " + disappearTime);
 
         request.post(
             'https://maker.ifttt.com/trigger/PokemonGoWebhook/with/key/p8wzbrpgsYRe0TBOu2V3e',
-            { json: { "value1" : pokemonName, "value2" : disappearTime.toLocaleString(), "value3" : "" } },
+            { json: { "value1" : pokemonName, "value2" : disappearTime.toLocaleTimeString(), "value3" : "" } },
             function (error, response, body) {
                 if (error && response.statusCode != 200) {
                     console.log(body)
@@ -34,7 +40,7 @@ app.post('/', function(req, res) {
             }
         );
     }
-    else {
+    else if(req.body.message.pokemon_id) {
         console.log("Pokemon #" + req.body.message.pokemon_id + " not required.");
     }
 });
